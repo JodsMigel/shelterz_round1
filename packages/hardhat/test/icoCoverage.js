@@ -3,7 +3,7 @@ const { loadFixture } = require("@nomicfoundation/hardhat-network-helpers");
 
 
 DEFAULT_ADMIN_ROLE = "0x0000000000000000000000000000000000000000000000000000000000000000";
-ROUND_FUND = ethers.utils.parseEther("50000000");
+ROUND_FUND = ethers.utils.parseEther("60000000");
 NUM_CLAIMS = 12;
 
 async function sleep(amount) {
